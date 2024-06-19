@@ -10,7 +10,7 @@ export class UsersController {
      * Get users, optionally filtered by role.
      */
     @Get()
-    findAll(@Query('role') role?: string) {
+    findAll(@Query('role') role?: 'INTERN' | 'SDE' | 'HR') {
         return [];
     }
 

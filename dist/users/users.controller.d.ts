@@ -1,5 +1,5 @@
 export declare class UsersController {
-    findAll(role?: string): any[];
+    findAll(role?: 'INTERN' | 'SDE' | 'HR'): any[];
     findOne(id: string): {
         id: string;
     };
